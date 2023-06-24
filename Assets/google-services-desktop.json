@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "105975938583",
+    "project_id": "aug-labs",
+    "storage_bucket": "aug-labs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105975938583:android:dd093e5920971c966da652",
+        "android_client_info": {
+          "package_name": "com.jayant.AuGLabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105975938583-2sfqorsrno1kn96e4rudbb894s2i3mt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpThQS_-BLJL4J7rPtjhE9-2CSRD7PhyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105975938583-2sfqorsrno1kn96e4rudbb894s2i3mt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
