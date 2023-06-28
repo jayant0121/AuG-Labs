@@ -6,16 +6,17 @@ using UnityEngine.SceneManagement;
 public class SubjectManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject Menu;
-    public GameObject Physics;
-    public GameObject Chemistry;
-    public GameObject Maths;
+    public GameObject MenuPanel;
+    public GameObject PhysicsPanel;
+    public GameObject ChemistryPanel;
+    public GameObject MathsPanel;
+    public GameObject UnderDevelopmentPanel;
     void Start()
     {
-        Menu.SetActive(true);
-        Physics.SetActive(false);
-        Chemistry.SetActive(false);
-        Maths.SetActive(false);
+        MenuPanel.SetActive(true);
+        PhysicsPanel.SetActive(false);
+        ChemistryPanel.SetActive(false);
+        MathsPanel.SetActive(false);
         Screen.orientation = ScreenOrientation.Portrait;
     }
     void Update()
@@ -27,28 +28,29 @@ public class SubjectManager : MonoBehaviour
     }
     public void OnPhysics()
     {
-        Menu.SetActive(false);
-        Physics.SetActive(true);
+        MenuPanel.SetActive(false);
+        PhysicsPanel.SetActive(true);
     }
     public void OnChmistry()
     {
-        Menu.SetActive(false);
-        Chemistry.SetActive(true);
+        MenuPanel.SetActive(false);
+        ChemistryPanel.SetActive(true);
     }public void OnMaths()
     {
-        Menu.SetActive(false);
-        Maths.SetActive(true);
+        MenuPanel.SetActive(false);
+        MathsPanel.SetActive(true);
     }
     public void OnLOR()
     {
-        SceneManager.LoadScene("LORscene1");
+        SceneManager.LoadScene("LORscene2");
     }
     public void BackPress()
     {
-        Menu.SetActive(true);
-        Physics.SetActive(false);
-        Chemistry.SetActive(false);
-        Maths.SetActive(false);
+        UnderDevelopmentPanel.SetActive(false);
+        MenuPanel.SetActive(true);
+        PhysicsPanel.SetActive(false);
+        ChemistryPanel.SetActive(false);
+        MathsPanel.SetActive(false);
     }
     public void BRclick()
     {
