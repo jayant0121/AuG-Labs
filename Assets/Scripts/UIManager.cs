@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     //Screen object variables
     public GameObject loginUI;
     public GameObject registerUI;
+    public GameObject FrontUI;
 
     private void Awake()
     {
@@ -21,6 +22,9 @@ public class UIManager : MonoBehaviour
             Debug.Log("Instance already exists, destroying object!");
             Destroy(this);
         }
+        FrontUI.SetActive(true);
+        loginUI.SetActive(false);
+        registerUI.SetActive(false);
     }
 
     //Functions to change the login screen UI
@@ -29,9 +33,15 @@ public class UIManager : MonoBehaviour
         loginUI.SetActive(true);
         registerUI.SetActive(false);
     }
-    public void RegisterScreen() // Regester button
+    public void RegisterScreen() // Register button
     {
         loginUI.SetActive(false);
         registerUI.SetActive(true);
+    }
+    public void NextScreen()
+    {
+        FrontUI.SetActive(false);
+        loginUI.SetActive(true);
+        registerUI.SetActive(false);
     }
 }
