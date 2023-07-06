@@ -8,6 +8,10 @@ public class CollisionScnene : MonoBehaviour
     /// <summary>
     /// Update is called every frame, if the MonoBehaviour is enabled.
     /// </summary>
+    void Start()
+    {
+        Screen.orientation = ScreenOrientation.Landscape;
+    }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))

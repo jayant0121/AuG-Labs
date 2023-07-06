@@ -5,15 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/LoginRegister.unity
     guid: 6a07df9e5a9660742bc51dc0107611ec
   - enabled: 1
     path: Assets/Scenes/Subject.unity
     guid: 632704ee92bd28f40849cf33314af23c
-  - enabled: 1
-    path: Assets/Scenes/LORscene1.unity
-    guid: 36ea804be58bff84199a23029167c4f7
   - enabled: 1
     path: Assets/Scenes/LORscene2.unity
     guid: 5db21c8ade78ba04f8019d357d61fe15
@@ -35,4 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final_results.unity
     guid: 449bc3a7983abd640a48706341e1cf41
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 51d8a9ac1963d9b438d4ab255169d06d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a869265f96cf0264f9e3fb3bbaafd555, type: 2}
