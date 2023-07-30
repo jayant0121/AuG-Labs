@@ -4,3 +4,6 @@ AugLabs is an immersive AR app offering virtual labs in math, physics, and chemi
 
 # APK download link
 https://aug-labs.en.uptodown.com/android
+
+# Alternate Download link
+https://drive.google.com/file/d/1QBc8vVvcjdenhBziie4uHEasEWX1d9uL/view?usp=sharing
