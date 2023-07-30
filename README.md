@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1QBc8vVvcjdenhBziie4uHEasEWX1d9uL/view?usp=shari
 
 ## App Screenshots
 ### Home Screen
-![home screen](https://github.com/jayant0121/AuG-Labs/assets/89833403/69e2f416-3a35-44d8-b4ff-ca5d9105f487 | width=100))
+![home screen](https://github.com/jayant0121/AuG-Labs/assets/89833403/69e2f416-3a35-44d8-b4ff-ca5d9105f487)
 ### 1D collision
 ![1d collisionj](https://github.com/jayant0121/AuG-Labs/assets/89833403/a277db72-1a38-4b82-8717-be6027c4eb51)
 ### Brown Ring Test
